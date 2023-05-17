@@ -1,0 +1,73 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+cp: cannot stat 'bin-original': No such file or directory
+./src/two_bit_v19_hostpipe_basic.cpp:172:21: warning: 'fpga_selector' is deprecated: Use the callable sycl::ext::intel::fpga_selector_v instead. [-Wdeprecated-declarations]
+        ext::intel::fpga_selector device_selector;
+                    ^
+/glob/development-tools/versions/oneapi/2023.1/oneapi/compiler/2023.1.0/linux/bin-llvm/../include/sycl/ext/intel/fpga_device_selector.hpp:80:7: note: 'fpga_selector' has been explicitly marked deprecated here
+class __SYCL2020_DEPRECATED(
+      ^
+/glob/development-tools/versions/oneapi/2023.1/oneapi/compiler/2023.1.0/linux/bin-llvm/../include/sycl/detail/defines_elementary.hpp:48:40: note: expanded from macro '__SYCL2020_DEPRECATED'
+#define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                       ^
+/glob/development-tools/versions/oneapi/2023.1/oneapi/compiler/2023.1.0/linux/bin-llvm/../include/sycl/detail/defines_elementary.hpp:39:38: note: expanded from macro '__SYCL_DEPRECATED'
+#define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                     ^
+./src/two_bit_v19_hostpipe_basic.cpp:184:27: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        char* file_name = "./data/sra_data.fasta";
+                          ^
+./src/two_bit_v19_hostpipe_basic.cpp:266:21: warning: 'queue' is deprecated: SYCL 1.2.1 device selectors are deprecated. Please use SYCL 2020 device selectors instead. [-Wdeprecated-declarations]
+        sycl::queue q(device_selector, dpc_common::exception_handler);
+                    ^
+/glob/development-tools/versions/oneapi/2023.1/oneapi/compiler/2023.1.0/linux/bin-llvm/../include/sycl/queue.hpp:182:3: note: 'queue' has been explicitly marked deprecated here
+  __SYCL2020_DEPRECATED("SYCL 1.2.1 device selectors are deprecated. Please "
+  ^
+/glob/development-tools/versions/oneapi/2023.1/oneapi/compiler/2023.1.0/linux/bin-llvm/../include/sycl/detail/defines_elementary.hpp:48:40: note: expanded from macro '__SYCL2020_DEPRECATED'
+#define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                       ^
+/glob/development-tools/versions/oneapi/2023.1/oneapi/compiler/2023.1.0/linux/bin-llvm/../include/sycl/detail/defines_elementary.hpp:39:38: note: expanded from macro '__SYCL_DEPRECATED'
+#define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                     ^
+3 warnings generated.
+host_pipes.hpp:369: Compiler Error: Compiler was unable to determine any resolvable address spaces. Please check if an appropriate board resource was specified.
+Error: Optimizer FAILED.
+Refer to /home/u132436/tmp/two_bit_v19_hostpipe_basic-d4f6c8-280f45/kmers_s10_fpga.log for details.
+
+llvm-foreach: 
+icpx: error: fpga compiler command failed with exit code 1 (use -v to see invocation)
